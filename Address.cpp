@@ -1,13 +1,10 @@
 //
-// Created by Sereg on 29.10.2019.
+// Created by Sereg on 26.11.2019.
 //
-
-#include "adress.h"
-
-Address(const string& str){
+#include "Address.h"
+Address::Address(const string &str){
     char d;
     int n;
-
     if (str.find('.') != string::npos) {
         d = '.';
         n =  8;
@@ -40,8 +37,8 @@ Address(const string& str){
 
         if (j == string::npos) break;
     }
-};
-string toString() {
+}
+string Address::toString() {
     stringstream ret;
     int n;
 
@@ -64,4 +61,4 @@ string toString() {
     }
 
     return ret.str();
-};
+}
