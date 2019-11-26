@@ -5,9 +5,11 @@
 #include "Address.cpp"
 #include "Network.cpp"
 #include "test.cpp"
+#include "MyList.h"
+
 using namespace std;
 
 int main() {
-    test();
+    testaddress();
 }
 

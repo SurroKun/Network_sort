@@ -2,7 +2,7 @@
 // Created by Sereg on 26.11.2019.
 //
 
-void test()
+void testaddress()
 {
     string A, B;
     cout << "Введіть Мережу\n"; cin>>A ;

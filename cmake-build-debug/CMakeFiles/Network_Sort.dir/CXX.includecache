@@ -12,6 +12,12 @@ Address.h
 
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Address.h
 
+/cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/MyList.h
+string
+-
+cstdlib
+-
+
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Network.cpp
 Network.h
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Network.h
@@ -33,6 +39,8 @@ Network.cpp
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Network.cpp
 test.cpp
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/test.cpp
+MyList.h
+/cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/MyList.h
 
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/test.cpp
 
