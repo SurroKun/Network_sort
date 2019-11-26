@@ -3,7 +3,11 @@
 //
 #include "Network.h"
 
-
+Network::Network(const string& cidr) : addr(Address(cidr.substr(0, cidr.find('/')))) {
+    stringstream s;
+    s << cidr.substr(cidr.find('/') + 1);
+    s >> mask;
+}
 
 bool Network::test(const Address& bddr) {
     vector<bool> a = addr.bits();

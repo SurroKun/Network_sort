@@ -11,14 +11,6 @@ Address.h
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Address.h
 
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Address.h
-iostream
--
-vector
--
-sstream
--
-bitset
--
 
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Network.cpp
 Network.h
@@ -35,12 +27,12 @@ sstream
 -
 bitset
 -
-Address.h
-/cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Address.h
 Address.cpp
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Address.cpp
-Network.h
-/cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Network.h
 Network.cpp
 /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/Network.cpp
+test.cpp
+/cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/test.cpp
+
+/cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/test.cpp
 

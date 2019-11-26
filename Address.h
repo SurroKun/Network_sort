@@ -4,10 +4,6 @@
 
 #ifndef NETWORK_SORT_ADDRESS_H
 #define NETWORK_SORT_ADDRESS_H
-#include <iostream>
-#include <vector>
-#include <sstream>
-#include <bitset>
 using namespace std;
 
 class Address {
