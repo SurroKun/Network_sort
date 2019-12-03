@@ -1,5 +1,5 @@
-#ifndef TESTIK_MYLIST_H
-#define TESTIK_MYLIST_H
+#ifndef LAB1_MYLIST_H
+#define LAB1_MYLIST_H
 #pragma once
 #include <string>
 #include <cstdlib>
@@ -69,5 +69,4 @@ public:
     }
 };
 
-
-#endif //TESTIK_MYLIST_H
+#endif //LAB1_MYLIST_H

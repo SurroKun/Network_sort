@@ -1,9 +1,5 @@
-//
-// Created by Sereg on 02.12.2019.
-//
-
-#ifndef TESTIK_NETWORK_H
-#define TESTIK_NETWORK_H
+#ifndef LAB1_NETWORK_H
+#define LAB1_NETWORK_H
 
 class Network {
 private:
@@ -27,7 +23,8 @@ public:
                 return false;
             }
         }
+        return true;
     }
 };
+#endif //LAB1_NETWORK_H
 
-#endif //TESTIK_NETWORK_H

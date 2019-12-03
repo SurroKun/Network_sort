@@ -1,5 +1,5 @@
-#ifndef TESTIK_MYARRAYLIST_H
-#define TESTIK_MYARRAYLIST_H
+#ifndef LAB1_MYARRAYLIST_H
+#define LAB1_MYARRAYLIST_H
 #pragma once
 #include "MyList.h"
 #include <bitset>
@@ -189,4 +189,5 @@ public:
     }
 };
 
-#endif //TESTIK_MYARRAYLIST_H
+
+#endif //LAB1_MYARRAYLIST_H

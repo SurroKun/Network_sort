@@ -1,9 +1,14 @@
+//
+// Created by Sereg on 03.12.2019.
+//
+
+#ifndef LAB1_ADDRESS_H
+#define LAB1_ADDRESS_H
+
+
 #include "vector"
 #include <bitset>
 #include <sstream>
-
-#ifndef TESTIK_ADDRESS_H
-#define TESTIK_ADDRESS_H
 
 using namespace std;
 class Address {
@@ -76,4 +81,5 @@ public:
     }
 };
 
-#endif //TESTIK_ADDRESS_H
+
+#endif //LAB1_ADDRESS_H

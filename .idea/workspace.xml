@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="testik" targetName="testik" />
+      <config projectName="Lab1" targetName="Lab1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dad80d-31dc-4695-927d-8d4867be1cb9" name="Default Changelist" comment="" />
+    <list default="true" id="f96ab4e8-0ffe-4dcb-bd8d-6107cfb9c27a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +22,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1U8TwLIroEkg6bQZlRMPDThZty3" />
+  <component name="ProjectId" id="1USyvm6c2p6AugRY5sG898mU24t" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,33 +39,40 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="testik" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testik" TARGET_NAME="testik" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testik" RUN_TARGET_NAME="testik">
+    <configuration name="Lab1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab1" TARGET_NAME="Lab1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab1" RUN_TARGET_NAME="Lab1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d1dad80d-31dc-4695-927d-8d4867be1cb9" name="Default Changelist" comment="" />
-      <created>1574737459835</created>
+      <changelist id="f96ab4e8-0ffe-4dcb-bd8d-6107cfb9c27a" name="Default Changelist" comment="" />
+      <created>1575364523135</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574737459835</updated>
-      <workItem from="1574737461722" duration="11002000" />
-      <workItem from="1575276928769" duration="31486000" />
-      <workItem from="1575330570394" duration="42000" />
-      <workItem from="1575330874294" duration="340000" />
+      <updated>1575364523135</updated>
+      <workItem from="1575364525018" duration="1969000" />
+      <workItem from="1575369021597" duration="1972000" />
+      <workItem from="1575410441721" duration="1778000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

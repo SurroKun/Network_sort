@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(testik)
+project(Lab1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(testik main.cpp)
+add_executable(Lab1 main.cpp)
