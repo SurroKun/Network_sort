@@ -1,16 +1,33 @@
 //
-// Created by Sereg on 26.11.2019.
+// Created by Sereg on 02.12.2019.
 //
-#ifndef NETWORK_SORT_NETWORK_H
-#define NETWORK_SORT_NETWORK_H
+
+#ifndef TESTIK_NETWORK_H
+#define TESTIK_NETWORK_H
 
 class Network {
 private:
     Address addr;
     int mask;
 public:
-    Network(const string& cidr);
-    bool test(const Address& bddr);
+    Network(const string &cidr): addr(Address(cidr.substr(0, cidr.find('/')))) {
+        stringstream s;
+        s << cidr.substr(cidr.find('/') + 1);
+        s >> mask;
+    };
+
+    bool test(const Address &bddr) {
+        vector<bool> a = addr.bits();
+        vector<bool> b = bddr.bits();
+
+        if (a.size() != b.size()) return false;
+
+        for (int i = 0; i < mask; i++) {
+            if (a[i] != b[i]) {
+                return false;
+            }
+        }
+    }
 };
 
-#endif //NETWORK_SORT_NETWORK_H
+#endif //TESTIK_NETWORK_H

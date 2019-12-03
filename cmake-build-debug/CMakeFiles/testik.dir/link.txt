@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/testik.dir/main.cpp.o  -o testik.exe -Wl,--out-implib,libtestik.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

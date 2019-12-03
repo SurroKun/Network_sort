@@ -1,12 +1,29 @@
-//
-// Created by Sereg on 26.11.2019.
-//
-
-#ifndef NETWORK_SORT_MYLIST_H
-#define NETWORK_SORT_MYLIST_H
+#ifndef TESTIK_MYLIST_H
+#define TESTIK_MYLIST_H
 #pragma once
 #include <string>
 #include <cstdlib>
+#include "Address.h"
+class Address;
+
+bool operator< (Address& address1, Address& address2)
+{
+    if (address1.bits().size() != address2.bits().size())  	return address1.bits().size() < address2.bits().size();
+    size_t i = 0;
+    for (;;) {
+        if (address1.bits()[i] != address2.bits()[i])    	return address1.bits()[i] < address2.bits()[i];
+        if (++i == address1.bits().size())          		return false;
+    }
+}
+
+bool operator> (Address& address1, Address& address2) {
+    if (address1.bits().size() != address2.bits().size()) return address1.bits().size() > address2.bits().size();
+    size_t i = 0;
+    for (;;) {
+        if (address1.bits()[i] != address2.bits()[i]) return address1.bits()[i] > address2.bits()[i];
+        if (++i == address1.bits().size()) return false;
+    }
+}
 
 template <typename E>
 class MyList {
@@ -53,4 +70,4 @@ public:
 };
 
 
-#endif //NETWORK_SORT_MYLIST_H
+#endif //TESTIK_MYLIST_H

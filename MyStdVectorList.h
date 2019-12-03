@@ -1,9 +1,5 @@
-//
-// Created by Sereg on 26.11.2019.
-//
-
-#ifndef NETWORK_SORT_MYSTDVECTORLIST_H
-#define NETWORK_SORT_MYSTDVECTORLIST_H
+#ifndef TESTIK_MYSTDVECTORLIST_H
+#define TESTIK_MYSTDVECTORLIST_H
 #pragma once
 #include "MyList.h"
 #include <string>
@@ -86,4 +82,6 @@ public:
     }
 };
 
-#endif //NETWORK_SORT_MYSTDVECTORLIST_H
+
+
+#endif //TESTIK_MYSTDVECTORLIST_H

@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/Sereg/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Sereg/CLionProjects/testik
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Sereg/CLionProjects/testik/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Sereg/CLionProjects/testik/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Sereg/CLionProjects/testik/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Sereg/CLionProjects/Network_Sort/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Sereg/CLionProjects/testik/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Network_Sort
+# Target rules for targets named testik
 
 # Build rule for target.
-Network_Sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Network_Sort
-.PHONY : Network_Sort
+testik: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testik
+.PHONY : testik
 
 # fast build rule for target.
-Network_Sort/fast:
-	$(MAKE) -f CMakeFiles/Network_Sort.dir/build.make CMakeFiles/Network_Sort.dir/build
-.PHONY : Network_Sort/fast
+testik/fast:
+	$(MAKE) -f CMakeFiles/testik.dir/build.make CMakeFiles/testik.dir/build
+.PHONY : testik/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Network_Sort.dir/build.make CMakeFiles/Network_Sort.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/testik.dir/build.make CMakeFiles/testik.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Network_Sort.dir/build.make CMakeFiles/Network_Sort.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/testik.dir/build.make CMakeFiles/testik.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Network_Sort.dir/build.make CMakeFiles/Network_Sort.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/testik.dir/build.make CMakeFiles/testik.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Network_Sort"
+	@echo "... testik"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

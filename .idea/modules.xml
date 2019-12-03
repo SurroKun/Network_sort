@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Network_Sort.iml" filepath="$PROJECT_DIR$/.idea/Network_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/testik.iml" filepath="$PROJECT_DIR$/.idea/testik.iml" />
     </modules>
   </component>
 </project>

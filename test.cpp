@@ -1,7 +1,4 @@
-//
-// Created by Sereg on 26.11.2019.
-//
-
+#include "Network.h"
 void testaddress()
 {
     string A, B;
@@ -37,3 +34,4 @@ void testaddress()
     cout << endl;
 
 }
+
